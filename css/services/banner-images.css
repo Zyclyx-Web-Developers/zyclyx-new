@@ -1,0 +1,106 @@
+ .rpa-banner {
+  background-image: url("../../img/rpa/img.jpg");
+ background-position: center;
+}
+ 
+.ai-banner {
+  background-image: url("../../img/ai/img.jpg");
+  background-position:center;
+}
+
+.bc-banner {
+  background-image: url("../../img/blockchain/img.jpg"); 
+  background-position: center;
+}
+ 
+.iot-banner {
+  background-image: url("../../img/iot/img.jpg");   
+      background-position:top;
+} 
+.swd-banner {
+  background-image: url("../../img/software/img.jpg");
+  background-size: cover;
+  background-position:center;
+}
+.mapp-banner {
+  background-image: url("../../img/mapp/img.jpg");
+  /* background-position: center; */
+}
+ 
+.web-banner {
+  background-image: url("../../img/web/img.jpg");
+  background-position: center center;
+}
+ 
+.dm-banner {
+  background-image: url("../../img/dmark/img.jpg");
+  
+}
+ 
+
+.cs-banner {
+  background-image: url("../../img/cyber-security/img.jpg");
+  background-position: center;
+}
+ 
+.infosec-banner {
+  background-image: url("../../img/infosec/img.jpg");
+  background-position: top center;
+}
+ 
+.dvis-banner {
+  background-image: url("../../img/datavis/img.jpg");
+  background-position: top right;
+}
+ 
+.pa-banner {
+  background-image: url("../../img/predictive/img.jpg");   
+}
+ 
+.dcenter-banner {
+  background-image: url("../../img/datacenter/img.jpg");
+}
+ 
+.ns-banner {
+  background-image: url("../../img/network-security/img.jpg");
+  background-position: center;
+}
+ 
+.bd-banner {
+  background-image: url("../../img/bigdata/img.jpg");
+  background-position: center;
+}
+ 
+.end-user-banner {
+  background-image: url("../../img/endusercomputing/img.jpg");
+  background-position: center;
+}
+ 
+.app-sec-banner {
+  background-image: url("../../img/app_security/img.jpg");
+  background-position: center center;   
+}
+
+ 
+.mob-sec-banner {   
+  background-image: url("../../img/mobile-security/img.jpg");
+  background-position: left center;
+}
+ 
+.comp-banner {   
+  background-image: url("../../img/compliance/img.jpg");
+  background-position: center;
+}
+ .access-banner {   
+  background-image: url("../../img/identity/img.jpg");
+  background-position: center;
+}
+.infra-banner {   
+  background-image: url("../../img/infra/img.jpg");
+  /* background-position: center;  */
+}
+
+.outs-banner {
+  background-image: url("../../img/outs/img.jpg");
+  background-position:center;
+}

@@ -1,0 +1,328 @@
+.image-list {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.image-list li {
+  list-style-type: none;
+}
+.image-list li a {
+  color: #f5f5f5;
+}
+
+/* TODO - remove body padding later */
+*::selection {
+  background-color: #01bdd5 !important;
+  color: white;
+}
+ 
+.job-banner {
+  position: relative;
+  height: 92vh;
+  background-color: #0c1b33;
+  display: flex; 
+  background-image: url("../../img/careers/img-5.jpg");
+  background-position: center center;
+  background-size: cover;
+  z-index: 1;
+}
+ 
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+}
+
+.options {
+  display: flex;
+  align-items: stretch;
+}
+.option {
+  background: rgba(12, 26, 50, 0.8);
+  font-size: 1.5rem;
+}
+
+.options .optIcon {
+  font-size: 1.5rem;
+}
+.options p {
+  margin-bottom: 0;
+}
+
+.options .option {
+  color: #b5caee;
+  display: flex;
+  align-items: center; 
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  border: 1px solid hsl(217, 62%, 25%);
+}
+ 
+.options .option-btn {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 45px 0px;
+  color: rgb(255, 255, 255);
+  background: #00bdd5 !important; 
+}
+.options .option-btn:hover {
+  background: hsl(187, 100%, 48%) !important;
+  color: #0c1b33;
+}
+ 
+.details-wrapper {
+  background: #ffffff;
+}
+ 
+.job-description {
+  color: #525252;
+}
+.job-desc-list {
+  color: #525252 !important;
+  list-style: none;
+  padding-left: 0px;
+  margin: 0;
+}
+ .job-desc-list li {
+  display: flex; 
+  padding: 0.1rem 0;
+}
+  
+ .details ul li .fas {
+  margin-right: 8px;
+  margin-top: 8px;
+  color: #24aec3;
+  font-size: 1rem;
+}
+
+/* ! Contact Modal */
+#appForm {  
+  color: #525252; 
+  background-color: #ffffff;
+}
+
+#appForm .applyForm { 
+  padding: 10px;  
+  z-index: 12000;
+}
+
+.input-group .custom-file {
+  margin-bottom: 10px;   
+}
+.input-group .custom-file-label::after {   
+  content: "\f0c6" !important;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 24px;
+  padding: 35px 10px;
+  color: #04a7bd;
+  background: #f5f5f5 !important;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+ 
+.input-group .custom-file-label {
+  font-size: 1.1rem !important;
+  border: none;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5 !important;   
+  padding: 35px;
+  height: 0px;
+  overflow: hidden;
+}
+
+#appForm .form-group {
+  margin-bottom: 0.5rem; 
+}
+#appForm .form-control {
+  border-bottom: 1px solid hsl(217, 62%, 72%) !important;
+}
+#appForm .form-control:focus,
+#appForm .form-control:valid { 
+  background: #0a0e180a;
+  border-bottom: 1px solid rgba(204, 204, 204, 0.404);
+  box-shadow: none;
+}
+ 
+.was-validated .custom-file-label.form-control:invalid, .custom-file-label.form-control.is-invalid {
+
+  color: #dc3545;
+  background-color: #f7f1f3 !important;
+}
+.form-control.is-invalid:focus,
+.was-validated .form-control:valid:focus {
+  background: hsla(143, 100%, 28%, 0.039) !important;
+  border-bottom: 1px solid #008d36 !important;
+  box-shadow: none;
+}
+/* .form-control.is-invalid:focus, */
+.was-validated .form-control:invalid {
+  background: hsla(354, 70%, 54%, 0.039) !important;
+  border-bottom: 1px solid #dc3545 !important;
+  box-shadow: none;
+}
+.was-validated :invalid~.invalid-feedback{
+  font-size: 1rem;
+}
+
+#appForm label {
+  color: #01626e;
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+#appForm .form-control {
+  border: none;
+  border-radius: 0px;
+  color: #fff; 
+  font-size: 1.1rem !important;
+  font-weight: 200;
+  background-color: transparent;
+}
+ 
+.form-control.is-invalid:focus,
+.was-validated .form-control:valid:focus { 
+  border-bottom: 1px solid #008d36 !important;
+  box-shadow: none;
+}
+.form-control.is-invalid:focus,
+.was-validated .form-control:invalid { 
+  border-bottom: 1px solid #dc3545 !important;
+  box-shadow: none;
+}
+
+#appForm label {
+  color: #01626e;
+  font-size: 18px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+#appForm .form-control {
+  border: none;
+  border-radius: 0px;
+  color: #20263b;  
+  font-size: 25px;
+  font-weight: 400;
+  background-color: transparent;
+}
+ 
+ 
+ 
+
+ 
+.right-wrapper {
+  height: 92vh;
+}
+ .iti {
+   display: flex;
+ }
+.footer{
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.05);
+}
+/* ========= Media Queries ========= */
+@media (max-width: 360px) {
+ 
+  #appForm label {
+    font-size: 14px !important;
+  }
+  #appForm .form-control {
+    font-size: 16px !important;
+  }
+  #appForm .custom-file-label {
+    /* background-color: #0a7492 */
+    color: #0a7492 !important;
+    font-size: 18px !important;
+  }
+  #appForm .custom-file-label::after {
+    padding: 40px 10px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+ 
+ 
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .options .option-btn {
+    display: none;
+  }
+  .options .option {
+    padding: 15px 12px;
+  }
+  .title .job-title {
+    font-size: 45px;
+  }
+  .title .hero-text {
+    font-size: 16px;
+  }
+
+  .title {
+    padding: 0px 40px;
+    text-align: center;
+  }
+  .title #description {
+    text-align: center !important;
+  }
+ 
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 991.98px) {
+  /* .title .job-title{
+    font-size: 50px; */
+  /* }.title #description .hero-text{
+    font-size: 16px;
+  } */
+  .title a {
+    background: #767676;
+    border-radius: 10px;
+  }
+  .options .option h2 {
+    font-size: 20px;
+  }
+  .options .optIcon {
+    font-size: 28px;
+  }
+  .options .option-btn {
+    font-size: 25px;
+    width: 100%;
+    margin: 0px;
+    padding: 40px 0px !important;
+  }
+ 
+  .appWrapper label {
+    font-size: 15px !important;
+  }
+  .appWrapper .custom-file-label {
+    font-size: 20px !important;
+  }
+  .appWrapper .custom-file-label::after {
+    font-size: 20px;
+    color: #0a7492;
+  }
+  .appWrapper .form-control {
+    font-size: 20px !important;
+  }
+ 
+  .left-wrapper {
+    height: 60vh;
+  }
+  .right-wrapper {
+    height: 10vh;
+  }
+}
+.details {   
+  text-align: justify;
+}
+
+/* TODO - check it  */
+.contact-banner {
+  display: none;
+}

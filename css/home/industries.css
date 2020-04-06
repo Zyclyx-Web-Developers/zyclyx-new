@@ -1,0 +1,141 @@
+ .industry-wrapper {   
+  --ind-bg: #f5f5f5;
+  background-color: var(--ind-bg);
+}
+.industry-wrapper .title-2{
+  color: #0a7492;
+}
+.industry-inner {
+  display: flex;   
+  align-items: center;
+  flex-direction: column;
+}
+
+.industry-letter {
+  font-size: 3rem;
+  text-align: right;
+  font-family: "Monoton", cursive;
+  margin-right: 10px;
+  color:#525252;
+}
+.industry-body {
+  display: flex;
+  flex-direction: column;
+  padding: 0.3rem;
+}
+.industry:hover .industry-letter,
+.industry.active .industry-letter {
+  color: #20263b;
+}
+.industry {
+  padding: 0;
+}
+.industry .industry-title {
+  color: #525252;
+  margin-left: 10px;
+}
+.industry:hover .industry-title,
+.industry.active .industry-title {
+  color: #20263b;
+}
+.industry.active {
+  box-shadow: 14px 14px 35px -8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #00bdd5;
+  background-color: #00bdd5;
+  color: #fff;
+}
+.industry-cards-2 {
+  align-self: center;
+}
+
+.ind-content {
+  display: none;
+  padding-left: 3rem;
+}
+/* .ind-content h2 {   
+  color: #00bdd5;   
+} */
+.ind-content .ind-text {   
+  color: #525252;
+  font-size: 1.2rem;
+  padding-top: 1.5rem;
+}
+.ind-content.active {
+  display: block;
+}
+#industryInner .col-12 {
+  padding: 5px;
+}
+
+
+@media (max-width: 768px) { 
+.ind-sm-wrapper{
+    padding: 0 !important;
+    border-top: 1px solid #b8bdc4;
+  }
+  .ind-sm{
+    flex: 1 1 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #b8bdc4;
+    padding: 0;
+  }
+    .ind-sm:nth-child(1){
+      border: none;
+    }
+  .title-letter-sm{
+    font-size: 2rem;
+    font-family: "Monoton", cursive;
+    margin: 0;
+  }
+  /* .ind-content h2{
+    font-size: 2rem;
+  } */
+  .ind-content p{
+    font-size: 1rem;
+  }
+  .industry-inner{
+    position: relative;
+  }
+  .ind-sm-wrapper{
+    position: absolute;
+    bottom: 0px;
+  }
+ }
+
+@media (max-width: 576px) {
+  .ind-content{
+    padding: 1rem 0.5rem;
+    text-align: justify !important;
+  }
+  .industry-cards-2 {
+    align-self: start;
+  }
+  .industry-letter{
+    font-size: 1rem;
+  }
+ .industry-cards-2 .row .col-4,  .col-6{
+    padding: 0 !important;
+     
+  }
+  .ind-content .title-3{
+    text-align: center;
+  }
+  .title-text-sm{
+    display: none;
+  }
+  .title-letter-sm {
+    font-size: 3rem;
+    color: #20263b;
+  }
+  
+}
+
+
+ /* ! gsap animation */
+
+ .industry-inner{
+   opacity: 0;
+ }
