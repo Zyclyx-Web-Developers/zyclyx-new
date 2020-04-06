@@ -3,16 +3,8 @@
   z-index: 9999;
   /* todo - for gsap animation */
 }
-/* @media (min-width: 992px) {
-  .navbar-expand-lg .navbar-nav .dropdown-menu {
-    left: -65px;
-  }
-} */
-/* todo - for gsap animation */
-#main .master-navbar {
-  opacity: 0;
-}
-
+ 
+ 
 .master-navbar {
   background-color: #ffffff !important;
   box-shadow: 0 2px 14px 0 rgba(0, 0, 0, 0.05);

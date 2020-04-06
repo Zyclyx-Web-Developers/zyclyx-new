@@ -4,10 +4,7 @@
   /* todo - for gsap animation */
 }
 
-/* todo - for gsap animation */
-#main .master-navbar {
-  opacity: 0;
-}
+ 
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-nav .dropdown-menu {
     left: -65px;
